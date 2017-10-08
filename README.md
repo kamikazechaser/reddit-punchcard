@@ -8,7 +8,7 @@ Generate a user's punchcard based on his/her Reddit activity
 
 ## About
 
-Generate a user's punchcard based on his/her last 100 (or less) posts or comments. The punchard is generated entirely on clientside using D3.js and lodash. Data is fectched from the public JSON endpoint. Test it out [here](https://kamikazechaser.github.io/reddit-punchcard).
+Generate a user's punchcard based on his/her last 100 (or less) posts or comments. The punchard is generated entirely on clientside using D3.js and lodash. Data is fectched from the public JSON endpoint. Test it out [here](https://kamikazechaser.github.io/reddit-punchcard/index.html).
 
 ## Issues And Contribution
 
