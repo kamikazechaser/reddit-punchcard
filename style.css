@@ -1,0 +1,20 @@
+/**
+ * Reddit Punchcard
+ * 
+ * Mohammed Sohail <sohailsameja@gmail.com>
+ */
+
+body {
+  text-align: center;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-size: 0.9em;
+}

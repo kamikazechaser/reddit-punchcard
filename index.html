@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+ * Reddit Punchcard
+ * 
+ * Mohammed Sohail <sohailsameja@gmail.com>  
+!-->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+  <link href="style.css" rel="stylesheet" />
+  <title>Reddit Punchcard</title>
+</head>
+
+<body>
+  <div class="centered">
+    <p> This is a demo for generating a Reddit users punchcard from his last 100 posts, comments or other activity.
+
+    <br><br>
+
+    /u/ <input name="username" type="text" maxlength="20" id="username"/>
+    
+    <input type="button" value="Generate Punchard" onclick="renderPunchcard()">
+  </div>
+
+  <br><br>
+
+  <div id="reddit"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script src="https://cdn.rawgit.com/syaning/d3-punchcard/cf534386/dist/d3-punchcard.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
